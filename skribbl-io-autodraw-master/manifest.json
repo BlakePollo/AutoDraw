@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Autodraw skriblio by GetFluxuss",
+    "description": "Trascina un immaggine su skriblio è verrà disegnata da sola!",
+    "version": "0.2.8",
+    "icons": {
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://skribbl.io/*"
+            ],
+            "css": [
+                "main.css"
+            ],
+            "js": [
+                "dist/main.js"
+            ]
+        }
+    ],
+    "homepage_url": "https://github.com/BlakePollo/AutoDraw.git"
+}
